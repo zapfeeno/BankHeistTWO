@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Bank Heist Project/Bank Heist Map.unity
+    guid: fcb6630a74eba7244b1e6e35cf7ed7ac
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 008b6a77a081d5d49a27bb7d38b83e18, type: 2}

@@ -11,7 +11,7 @@ public class Door : MonoBehaviour
 
     bool doorUnlocked = false;
 
-    public string animationName = "Door Opening";
+    public string animationName;
 
     void Start() {
 
@@ -47,6 +47,7 @@ public class Door : MonoBehaviour
         {
             myDoor.Play(animationName, 0, 0.0f);
             isClosed = !isClosed;
+            doorUnlocked = true;
         }
         else
         {
