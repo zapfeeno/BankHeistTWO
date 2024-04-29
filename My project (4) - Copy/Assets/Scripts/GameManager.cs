@@ -76,4 +76,9 @@ public class GameManager : MonoBehaviour
         puzzle2Complete = isDone;
         Debug.Log("Puzzle 2 complete: " + isDone);
     }
+
+    public static void setPuzzle3(bool isDone) {
+        puzzle3Complete = isDone;
+        Debug.Log("Puzzle 3 complete: " + isDone);
+    }
 }

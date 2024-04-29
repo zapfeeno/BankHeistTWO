@@ -7,14 +7,24 @@ using TMPro;
 public class CodeManager : MonoBehaviour
 {
 
-    public TMP_Text PIN_display;
+    
     string code = "";
-    public string solution = "1234";
+    public string solution = "04151949";
     public int attempts = 3;
     int strikes = 0;
 
+    public GameObject loginScreen;
+    public TMP_Text loginText;
+    public GameObject passwordScreen;
+    public TMP_Text PIN_display;
+
+    public string taskDesc = "";
+    public string successDesc = "";
+
     void Start()
     {
+        loginScreen.SetActive(true);
+        passwordScreen.SetActive(false);
         
     }
 
@@ -33,18 +43,20 @@ public class CodeManager : MonoBehaviour
 
     public void enterCode() {
         if(code == solution) {
-            PIN_display.text = "Solved!";
+            passwordScreen.SetActive(false);
+
+            loginText.text = successDesc;
             // do something here
-            GameManager.setPuzzle2(true);
+            GameManager.setPuzzle3(true);
         }
         else {
             strikes += 1;
-            PIN_display.text = "Incorrect. Attempts remaining: " + (attempts-strikes);
+            PIN_display.text = "Incorrect. Attempts remaining before penalty: " + (attempts-strikes);
             code = "";
             if(strikes >= attempts) {
                 PIN_display.text = "Max attempts reached";
                 // do something here
-                GameManager.SubTime(60 * 5);
+                GameManager.SubTime(60 * 1);
             }
         }
     }
@@ -52,6 +64,13 @@ public class CodeManager : MonoBehaviour
     public void delCode() {
         code = "";
         PIN_display.text = code;
+    }
+
+    public void openScreen() {
+        if(!GameManager.puzzle3Complete) {
+            passwordScreen.SetActive(true);
+            loginText.text = taskDesc;
+        }
     }
 
 }
