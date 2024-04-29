@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public static bool puzzle4Complete = false;
     public static bool puzzle5Complete = false;
 
-    public TMP_Text timeDisplay;
+    public TMP_Text[] timeDisplay;
 
 
     public static float startTime = 60.0f * 60;
@@ -33,7 +33,10 @@ public class GameManager : MonoBehaviour
     {
         timePassed = startTime - penaltyTime - Time.time;
         
-        timeDisplay.SetText(FormatTime(timePassed));
+        for(int i = 0 ; i < timeDisplay.Length ; i++) {
+            timeDisplay[i].SetText(FormatTime(timePassed));
+        }
+        
     }
 
     // formats seconds to HH:MM:ss
@@ -75,5 +78,10 @@ public class GameManager : MonoBehaviour
     public static void setPuzzle2(bool isDone) {
         puzzle2Complete = isDone;
         Debug.Log("Puzzle 2 complete: " + isDone);
+    }
+
+    public static void setPuzzle3(bool isDone) {
+        puzzle3Complete = isDone;
+        Debug.Log("Puzzle 3 complete: " + isDone);
     }
 }
