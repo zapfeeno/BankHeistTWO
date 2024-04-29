@@ -51,10 +51,10 @@ public class CodeManager : MonoBehaviour
         }
         else {
             strikes += 1;
-            PIN_display.text = "Incorrect. Attempts remaining before penalty: " + (attempts-strikes);
+            PIN_display.text = "Wrong attempts remaining before penalty: " + (attempts-strikes);
             code = "";
             if(strikes >= attempts) {
-                PIN_display.text = "Max attempts reached";
+                PIN_display.text = "Max attempts reached. Penalty for further guesses";
                 // do something here
                 GameManager.SubTime(60 * 1);
             }
