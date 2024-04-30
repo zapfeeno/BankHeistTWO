@@ -5,8 +5,10 @@ using UnityEngine;
 public class CameraBlocker : MonoBehaviour
 {
 
-    void Start() {
+    public GameObject playerFeedback;
 
+    void Start() {
+        playerFeedback.SetActive(false);
     }
 
     void Update() {
@@ -24,6 +26,22 @@ public class CameraBlocker : MonoBehaviour
             //doorMaterial.color = Color.green;
         }
 
+    }
+
+    void OnTriggerEnter(Collider other) {
+        if(other.gameObject.tag == "Player") {
+            playerFeedback.SetActive(true);
+            //doorMaterial.color = Color.green;
+        }
+
+    }
+
+    void OnTriggerExit(Collider other) {
+
+        if(other.gameObject.tag == "Player") {
+            playerFeedback.SetActive(false);
+            //doorMaterial.color = Color.green;
+        }
 
     }
 
