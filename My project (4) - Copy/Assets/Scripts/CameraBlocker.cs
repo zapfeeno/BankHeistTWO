@@ -15,11 +15,12 @@ public class CameraBlocker : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other) {
+    void OnTriggerStay(Collider other) {
 
-
+        // add feedback to let player know they are in camera view
+        // (!) metal gear solid type thing
         if(other.gameObject.tag == "Player") {
-            Debug.Log("Disable cameras first");
+            GameManager.SubTime(Time.deltaTime * 3);
             //doorMaterial.color = Color.green;
         }
 
