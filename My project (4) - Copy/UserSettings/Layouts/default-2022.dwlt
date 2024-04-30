@@ -93,7 +93,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 296
-    height: 483.2
+    height: 434.8
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 483.2
+    y: 434.8
     width: 1264
-    height: 240.79999
+    height: 289.2
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -246,7 +246,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1264
-    height: 483.2
+    height: 434.8
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -269,7 +269,7 @@ MonoBehaviour:
     x: 296
     y: 0
     width: 968
-    height: 483.2
+    height: 434.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -423,9 +423,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 555.2
+    y: 506.80002
     width: 1263
-    height: 219.79999
+    height: 268.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Bank Heist Project/PolygonHeist/Prefab/Props
+    - Assets/Prefabs/Puzzle Objects
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -455,17 +455,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Bank Heist Project/PolygonHeist/Prefab/Props
+  - Assets/Prefabs/Puzzle Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\euebe\Documents\GitHub\BankHeistTWO\My project (4)
     - Copy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 104.20001}
-    m_SelectedIDs: b0f40000
-    m_LastClickedID: 62640
-    m_ExpandedIDs: 0000000084e0000086e0000088e000008ae00000dce00000e4e00000c6e90000ece9000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 51.799988}
+    m_SelectedIDs: e6e00000
+    m_LastClickedID: 57574
+    m_ExpandedIDs: 0000000092e0000094e0000096e0000098e0000036e1000038e100003ae10000ceeb000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -493,7 +493,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000084e0000086e0000088e000008ae00000
+    m_ExpandedIDs: 0000000092e0000094e0000096e0000098e00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     x: 0
     y: 72
     width: 295
-    height: 462.2
+    height: 413.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -632,24 +632,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 74998.8}
-      m_SelectedIDs: 26b2feff
-      m_LastClickedID: -85466
-      m_ExpandedIDs: 26b2fefffcbefefff2faffff
+      scrollPos: {x: 0, y: 75319.2}
+      m_SelectedIDs: ca98feff
+      m_LastClickedID: -91958
+      m_ExpandedIDs: ca98fefffc1effffcc91ffff84f4ffff26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Elysium
-        m_OriginalName: Elysium
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -85466
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -682,7 +682,7 @@ MonoBehaviour:
     x: 296
     y: 72
     width: 966
-    height: 462.2
+    height: 413.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1015,9 +1015,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -58.2537, y: 2.009695, z: -85.15405}
+    m_Target: {x: -52.531925, y: -3.543542, z: -91.09702}
     speed: 2
-    m_Value: {x: -58.2537, y: 2.009695, z: -85.15405}
+    m_Value: {x: -52.531925, y: -3.543542, z: -91.09702}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1063,13 +1063,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.023976361, y: 0.22015381, z: -0.005566741, w: -0.9754342}
+    m_Target: {x: -0.14515258, y: -0.85355383, z: 0.33702236, w: -0.37066215}
     speed: 2
-    m_Value: {x: -0.021044372, y: 0.22010952, z: -0.004904233, w: -0.9752358}
+    m_Value: {x: -0.14571542, y: -0.85263044, z: 0.33665994, w: -0.3720867}
   m_Size:
-    m_Target: 2.2193594
+    m_Target: 4.3512125
     speed: 2
-    m_Value: 2.2208843
+    m_Value: 4.5562434
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 2415, y: 1103}
+  m_TargetSize: {x: 966, y: 441.2}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1172,7 +1172,7 @@ MonoBehaviour:
       y: 21
       width: 966
       height: 441.2
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 2.5, y: 2.5}
     m_Translation: {x: 483, y: 220.6}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1180,10 +1180,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -483
-      y: -220.6
-      width: 966
-      height: 441.2
+      x: -193.2
+      y: -88.240005
+      width: 386.4
+      height: 176.48001
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 2415, y: 1155.5}
