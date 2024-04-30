@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - DoorKey1
+  - Anchor
+  - BlueKey
+  - YellowKey
+  - RedKey
   layers:
   - Default
   - TransparentFX

@@ -5,8 +5,10 @@ using UnityEngine;
 public class CameraBlocker : MonoBehaviour
 {
 
-    void Start() {
+    public GameObject playerFeedback;
 
+    void Start() {
+        playerFeedback.SetActive(false);
     }
 
     void Update() {
@@ -15,14 +17,31 @@ public class CameraBlocker : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other) {
+    void OnTriggerStay(Collider other) {
 
-
+        // add feedback to let player know they are in camera view
+        // (!) metal gear solid type thing
         if(other.gameObject.tag == "Player") {
-            Debug.Log("Disable cameras first");
+            GameManager.SubTime(Time.deltaTime * 3);
             //doorMaterial.color = Color.green;
         }
 
+    }
+
+    void OnTriggerEnter(Collider other) {
+        if(other.gameObject.tag == "Player") {
+            playerFeedback.SetActive(true);
+            //doorMaterial.color = Color.green;
+        }
+
+    }
+
+    void OnTriggerExit(Collider other) {
+
+        if(other.gameObject.tag == "Player") {
+            playerFeedback.SetActive(false);
+            //doorMaterial.color = Color.green;
+        }
 
     }
 

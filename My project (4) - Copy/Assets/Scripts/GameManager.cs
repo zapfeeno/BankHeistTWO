@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     // tracking time here
     void Update()
     {
+        // this is so messed up idk why i did it like this
         timePassed = startTime - penaltyTime - Time.time;
         
         for(int i = 0 ; i < timeDisplay.Length ; i++) {
@@ -66,7 +67,7 @@ public class GameManager : MonoBehaviour
         return hString + ":" + mString + ":" + sString;
     }
 
-    public static void SubTime(int secondsLost) {
+    public static void SubTime(float secondsLost) {
         penaltyTime = penaltyTime + secondsLost;
     }
 

@@ -13,6 +13,8 @@ public class Door : MonoBehaviour
 
     public string animationName;
 
+    public string doorTag;
+
     void Start() {
 
     }
@@ -21,7 +23,7 @@ public class Door : MonoBehaviour
 
         if(!doorUnlocked) {
 
-            if(other.gameObject.tag == "DoorKey1") {
+            if(other.gameObject.tag == doorTag) {
                 Debug.Log("Unlocked!!");
                 //doorMaterial.color = Color.green;
                 GameManager.setPuzzle1(true);
