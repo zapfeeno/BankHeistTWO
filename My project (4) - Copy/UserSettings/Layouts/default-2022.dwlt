@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 272
     height: 724
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -447,7 +447,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Puzzle Objects
+    - Assets/Bank Heist Project/PolygonHeist/Prefab/Props
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -455,17 +455,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Puzzle Objects
+  - Assets/Bank Heist Project/PolygonHeist/Prefab/Props
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\euebe\Documents\GitHub\BankHeistTWO\My project (4)
     - Copy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 96.20001}
-    m_SelectedIDs: cce00000
-    m_LastClickedID: 57548
-    m_ExpandedIDs: 000000007ae000007ce000007ee0000080e0000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 104.20001}
+    m_SelectedIDs: b0f40000
+    m_LastClickedID: 62640
+    m_ExpandedIDs: 0000000084e0000086e0000088e000008ae00000dce00000e4e00000c6e90000ece9000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -493,7 +493,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007ae000007ce000007ee0000080e00000
+    m_ExpandedIDs: 0000000084e0000086e0000088e000008ae00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -545,7 +545,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 7.200012}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 283
@@ -632,24 +632,24 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 74982.8}
-      m_SelectedIDs: a6ea0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3ec7feff26fbffff
+      scrollPos: {x: 0, y: 74998.8}
+      m_SelectedIDs: 26b2feff
+      m_LastClickedID: -85466
+      m_ExpandedIDs: 26b2fefffcbefefff2faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Elysium
+        m_OriginalName: Elysium
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -85466
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -697,8 +697,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -166, y: -26}
-      snapOffsetDelta: {x: 0, y: -0.3999939}
+      snapOffset: {x: -166, y: -26.399994}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1015,9 +1015,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -52.33267, y: 1.2906294, z: -86.513306}
+    m_Target: {x: -58.2537, y: 2.009695, z: -85.15405}
     speed: 2
-    m_Value: {x: -52.332684, y: 1.2906302, z: -86.513336}
+    m_Value: {x: -58.2537, y: 2.009695, z: -85.15405}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1063,13 +1063,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.011215979, y: -0.20501783, z: 0.0021167835, w: -0.97896475}
+    m_Target: {x: -0.023976361, y: 0.22015381, z: -0.005566741, w: -0.9754342}
     speed: 2
-    m_Value: {x: -0.011345263, y: -0.12688829, z: 0.0012224443, w: -0.9918514}
+    m_Value: {x: -0.021044372, y: 0.22010952, z: -0.004904233, w: -0.9752358}
   m_Size:
-    m_Target: 3.4224706
+    m_Target: 2.2193594
     speed: 2
-    m_Value: 3.4224706
+    m_Value: 2.2208843
   m_Ortho:
     m_Target: 0
     speed: 2
