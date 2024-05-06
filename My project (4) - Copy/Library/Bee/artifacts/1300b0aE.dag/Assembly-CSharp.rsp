@@ -429,6 +429,7 @@
 "Assets/Scripts/PINManager.cs"
 "Assets/Scripts/RigManager.cs"
 "Assets/Scripts/SceneChanger2.cs"
+"Assets/Scripts/winningScript.cs"
 "Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs"
 "Assets/VRTemplateAssets/Scripts/BezierCurve.cs"
 "Assets/VRTemplateAssets/Scripts/BooleanToggleVisualsController.cs"
