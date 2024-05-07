@@ -9,6 +9,8 @@ TagManager:
   - BlueKey
   - YellowKey
   - RedKey
+  - buttonKey
+  - safeKey
   layers:
   - Default
   - TransparentFX
